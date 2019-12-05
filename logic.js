@@ -55,7 +55,7 @@ var compare = function(userChoice, botChoice){
         else return "You Win";
     }
     if(userChoice === "paper"){
-        if(botChoice == "scissor") return "Bot Win";
+        if(botChoice == "scissors") return "Bot Win";
         else return "You Win";
     }
     if(userChoice === "scissors"){
